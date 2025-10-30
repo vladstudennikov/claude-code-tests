@@ -34,6 +34,21 @@
             color: #6c757d;
             padding: 40px;
         }
+        .btn-create {
+            background-color: #E50136;
+            border-color: #E50136;
+            color: white;
+        }
+        .btn-create:hover {
+            background-color: #c00130;
+            border-color: #c00130;
+            color: white;
+        }
+        .btn-create:active, .btn-create:focus {
+            background-color: #a0012a;
+            border-color: #a0012a;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -44,7 +59,7 @@
             <div class="card-body">
                 <div class="input-group">
                     <input type="text" id="taskInput" class="form-control" placeholder="Enter a new task...">
-                    <button class="btn btn-primary" id="createButton" onclick="createTask()">Create</button>
+                    <button class="btn btn-create" id="createButton" onclick="createTask()">Create</button>
                 </div>
             </div>
         </div>
